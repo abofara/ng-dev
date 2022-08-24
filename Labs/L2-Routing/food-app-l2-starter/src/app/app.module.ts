@@ -10,6 +10,8 @@ import { MainComponent } from "./main/main.component";
 import { FoodContainerComponent } from './food/food-container/food-container.component';
 import { FoodListComponent } from './food/food-list/food-list.component';
 import { FoodEditComponent } from './food/food-edit/food-edit.component';
+import { HomeComponent } from './app/home/home.component';
+import { AboutComponent } from './app/about/about.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FoodEditComponent } from './food/food-edit/food-edit.component';
     MainComponent,
     FoodContainerComponent,
     FoodListComponent,
-    FoodEditComponent
+    FoodEditComponent,
+    HomeComponent,
+    AboutComponent
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
