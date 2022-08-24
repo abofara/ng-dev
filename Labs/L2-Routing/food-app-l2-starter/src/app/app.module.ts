@@ -7,9 +7,7 @@ import { AppComponent } from "./app.component";
 import { NavbarComponent } from "./shared/navbar/navbar.component";
 import { SidebarComponent } from "./shared/sidebar/sidebar.component";
 import { MainComponent } from "./main/main.component";
-import { FoodContainerComponent } from './food/food-container/food-container.component';
-import { FoodListComponent } from './food/food-list/food-list.component';
-import { FoodEditComponent } from './food/food-edit/food-edit.component';
+
 import { HomeComponent } from './app/home/home.component';
 import { AboutComponent } from './app/about/about.component';
 
@@ -19,9 +17,6 @@ import { AboutComponent } from './app/about/about.component';
     NavbarComponent,
     SidebarComponent,
     MainComponent,
-    FoodContainerComponent,
-    FoodListComponent,
-    FoodEditComponent,
     HomeComponent,
     AboutComponent
   ],
